@@ -1,33 +1,3 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
-  <defs>
-    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#24164c"/>
-      <stop offset=".55" stop-color="#5835a8"/>
-      <stop offset="1" stop-color="#a657d4"/>
-    </linearGradient>
-    <linearGradient id="distant" x1="0" y1="0" x2="0" y2="1">
-      <stop stop-color="#b587f2"/>
-      <stop offset="1" stop-color="#7553c9"/>
-    </linearGradient>
-    <linearGradient id="near" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#7654e8"/>
-      <stop offset="1" stop-color="#302267"/>
-    </linearGradient>
-    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
-      <stop stop-color="#5542a5"/>
-      <stop offset="1" stop-color="#20183f"/>
-    </linearGradient>
-  </defs>
-  <rect width="1024" height="1024" fill="url(#sky)"/>
-  <circle cx="710" cy="350" r="116" fill="#ffd48f"/>
-  <circle cx="710" cy="350" r="144" fill="#ffd48f" opacity=".12"/>
-  <path d="M0 660 191 459l119 117 191-245 202 292 114-150 207 187v364H0Z" fill="url(#distant)"/>
-  <path d="m310 576 191-245 202 292-104-58-103 76-104-84-91 40Z" fill="#d2b4ff" opacity=".55"/>
-  <path d="m606 632 211-159 207 187v364H606Z" fill="#956ee0"/>
-  <path d="M0 746 244 556l166 157 149-116 202 168 171-160 92 78v341H0Z" fill="url(#near)"/>
-  <path d="m244 556 166 157 149-116-94 134-137 6Z" fill="#a786ff" opacity=".62"/>
-  <path d="m559 766 202-168 171 160-161-65-105 76Z" fill="#ad83fa" opacity=".5"/>
-  <path d="M0 811q202-36 413 10t611-7v210H0Z" fill="url(#water)"/>
-  <path d="M327 850q161 21 340 2M246 895q246 27 522 3M377 946q139 13 284 1" fill="none" stroke="#c2a9ff" stroke-linecap="round" stroke-width="12" opacity=".55"/>
-  <path d="m266 235 11 28 28 11-28 11-11 28-11-28-28-11 28-11Zm562 31 8 20 20 8-20 8-8 20-8-20-20-8 20-8Z" fill="#fff4df"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <image href="app_icon.png" width="1024" height="1024" preserveAspectRatio="xMidYMid slice"/>
 </svg>

@@ -71,17 +71,7 @@ class _SplashScreenState extends State<SplashScreen>
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Container(
-                  padding: const EdgeInsets.all(26),
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: Colors.white.withOpacity(0.12),
-                    border: Border.all(
-                        color: Colors.white.withOpacity(0.3), width: 1.5),
-                  ),
-                  child: const Icon(Icons.wallpaper_rounded,
-                      size: 72, color: Colors.white),
-                ),
+                
                 const SizedBox(height: 28),
                 const Text(
                   'Walpaper',
