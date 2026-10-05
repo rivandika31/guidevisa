@@ -1,0 +1,4 @@
+storePassword=MASUKKAN_PASSWORD_KEYSTORE
+keyPassword=MASUKKAN_PASSWORD_ALIAS
+keyAlias=MASUKKAN_NAMA_ALIAS
+storeFile=upload-keystore.jks

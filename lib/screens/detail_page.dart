@@ -32,8 +32,8 @@ class _DetailPageState extends State<DetailPage> {
           // Gambar layar penuh
           Hero(
             tag: wp.id,
-            child: Image.network(
-              wp.fullUrl,
+            child: Image.asset(
+              wp.imageAsset,
               fit: BoxFit.cover,
               errorBuilder: (_, __, ___) => Container(color: Colors.white10),
             ),

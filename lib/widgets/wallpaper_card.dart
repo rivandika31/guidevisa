@@ -29,17 +29,9 @@ class WallpaperCard extends StatelessWidget {
             child: Stack(
               fit: StackFit.expand,
               children: [
-                Image.network(
-                  wallpaper.thumbUrl,
+                Image.asset(
+                  wallpaper.imageAsset,
                   fit: BoxFit.cover,
-                  loadingBuilder: (_, child, progress) => progress == null
-                      ? child
-                      : Container(
-                          color: Colors.white10,
-                          child: const Center(
-                            child: CircularProgressIndicator(strokeWidth: 2),
-                          ),
-                        ),
                   errorBuilder: (_, __, ___) => Container(
                     color: Colors.white10,
                     child: const Icon(Icons.broken_image_rounded,

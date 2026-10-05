@@ -5,10 +5,7 @@ class Wallpaper {
 
   const Wallpaper(this.id, this.title, this.category);
 
-  // Gambar contoh dari picsum.photos (butuh internet).
-  // Ganti dengan URL / asset milik Anda sendiri.
-  String get thumbUrl => 'https://picsum.photos/seed/$id/500/800';
-  String get fullUrl => 'https://picsum.photos/seed/$id/1080/1920';
+  String get imageAsset => 'assets/wallpapers/$id.jpg';
 }
 
 const List<String> categories = ['Semua', 'Alam', 'Abstrak', 'Kota', 'Gelap'];
